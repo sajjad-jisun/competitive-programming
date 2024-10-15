@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+#define optimize() ios_base::sync_with_stdio(0), cin.tie(0),cout.tie(0);
+#define ll long long
+#define pb push_back
+#define aTOz(v) v.begin(),v.end()
+#define cy cout<<"YES\n"
+#define cn cout<<"NO\n"
+ 
+int main(){
+    optimize()
+    int t; cin>>t;
+    while(t--){
+        
+    }
+    return 0;
+}
