@@ -1,0 +1,13 @@
+    while (low <= high) {
+        // Calculate mid without risk of overflow.
+        int mid = low + (high - low) / 2;
+        if (arr[mid] == target) {
+            return mid; // Found target at index mid.
+        } else if (arr[mid] < target) {
+            low = mid + 1; // Discard left half, including mid.
+        } else {
+            high = mid - 1; // Discard right half, including mid.
+        }
+    }
+    return -1; // Target not found.
+}
